@@ -4,4 +4,5 @@
 
 
 
-const fakeBin = str => str.replace(/./g, chr => Number(chr) < 5 ? 0 : 1)
+const fakeBin = str => str.replace(/./g, chr => Number(chr) < 5 ? 0 : 1);
+
